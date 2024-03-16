@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "LinkedIn Tips and Tricks",
+    "version": "1.0",
+    "description": "Provides tips and tricks for optimizing your LinkedIn profile.",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["*://www.linkedin.com/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "icons": { "48": "icon.png" }
+  }
