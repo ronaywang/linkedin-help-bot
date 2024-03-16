@@ -3,6 +3,14 @@
     "name": "LinkedIn Tips and Tricks",
     "version": "1.0",
     "description": "Provides tips and tricks for optimizing your LinkedIn profile.",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+      }
+    },
     "permissions": ["activeTab"],
     "content_scripts": [
       {
