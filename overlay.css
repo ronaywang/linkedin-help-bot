@@ -1,0 +1,11 @@
+/* overlay.css */
+#my-overlay {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 1000;
+  }
